@@ -1,5 +1,5 @@
 ﻿using System;
-/*/ №1 
+/ №1 
 /int month, day;
 Console.WriteLine("Введiть мiсяць: ");
 month = int.Parse(Console.ReadLine());
@@ -43,10 +43,10 @@ if ((month >= 1) && (month <= 12))
 else
 {
     Console.WriteLine(false);
-}*/
+} 
 
 //№ 2
-/*double digit, digit_mult;
+double digit, digit_mult;
 int round_number, round_number_mult, round_digit, numeric, first_figure, second_figure, result;
 Console.WriteLine("Введіть число");
 digit=double.Parse(Console.ReadLine());
@@ -58,7 +58,7 @@ numeric = round_digit - round_number_mult;
 first_figure = numeric / 10;
 second_figure = numeric %10;
 result = first_figure + second_figure;
-Console.WriteLine(result);*/
+Console.WriteLine(result);
 
 //№3
  int time;
@@ -115,13 +115,13 @@ else if (random_number % 2 == 1)
     Console.WriteLine("Число не парне");
 
 //№7
-/* double Celsius, Fahrenheit;
+ double Celsius, Fahrenheit;
 Console.WriteLine("Введіть градуси:");
 Celsius = double.Parse(Console.ReadLine());
-Fahrenheit = ((Celsius * 9) / 5) + 32; */ 
+Fahrenheit = ((Celsius * 9) / 5) + 32; 
 
 //№8
-/* int count = 0, n, number = 0, number_of_plus =0;
+ int count = 0, n, number = 0, number_of_plus =0;
 Console.WriteLine("Введіть n натуральних чисел:");
 n= int.Parse(Console.ReadLine());
 while(count!=n)
@@ -130,4 +130,4 @@ while(count!=n)
     number += number_of_plus;
     count += 1;
 }
-Console.WriteLine(number); */
+Console.WriteLine(number); 
