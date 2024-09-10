@@ -1,4 +1,3 @@
-﻿using System;
 / №1 
 /int month, day;
 Console.WriteLine("Введiть мiсяць: ");
